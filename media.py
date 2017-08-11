@@ -1,8 +1,12 @@
 import webbrowser
 
 class Movie():
-    """Movie Detail Class"""
+    
+    """The function __init__ will initialise the instances.
+    The function show_trailer, when called will open a browser and runs the trailer"""
+    
     valid_ratings = ["G", "PG", "PG-13", "R"]
+    
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
